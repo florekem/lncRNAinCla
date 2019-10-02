@@ -1,0 +1,72 @@
+
+OGÓLNE:
+
+[] blast sort przed trinotate co robi
+[] jak ustalic ktore bialka byly od salmonidae, wyniki ktore mam pokazuja tylko nazwy gatunkow bez zadnej ich klasyfikacji
+[] 
+
+
+[] ile z CPC pokrywa sie z lncRNAnet
+        - lncRNAnet traktowane jako pomocnicze do CPC
+        - odpowiada na pytanie: czy lnc znalezione przez CPC sa potwierdzone przez lncRNAnet
+        - dlatego baza jest CPC i przyrównuję do niego lncRNAnet
+
+
+
+[] determine expression protein:nc with TPM. Porównanie. Jak porównać.
+
+
+[] ciri i circRNA
+        [] dopisac cos we wstepnie
+        [] dyskusja
+
+[] zaprojektowac startery dla potwierdzenia obecnosci lncRNA
+		- raczej te z DiffExpres.
+        - dla calych contigow?
+        - tylko dla czesci contiga?
+                -do ktorej?
+
+[] przerobic DiffExpression (w sensie zajac sie)
+
+[] mrna:lncrna coexpression regulatory network
+
+
+
+
+PISANIE:
+[] rozwinac gdzies pochodzenie (PBS,IVF,MIM).
+	- na pewno dyskusjsa, gdzie jeszcze?
+	
+DYSKUSJA:
+[] wplyw polaczenia liver + homogenate na wynik
+[]
+
+SUPL_FIGURES:
+[] Secondary structures of sequences representing the highest and the lowest free energies are shown in Fig. X.lo
+
+RYSUNKI:
+[x] jak bedzie wygladac rysunek z workflowem
+
+
+OUTLINE
+--------------
+
+ABSTRACT:
+---------
+CONTEXT:
+	* broad context
+		[x] o lncRNAs
+		[x] lncrnas w non-model organisms with genome
+		[x] lncrnas w non-genome non-model
+	* current state of art
+		[] lncRNAs sa poznawane w modelowych organizmach z genomem np. łosoś
+	* what is missing
+		[] lncRNAs w podobnych organizmach salmonidae bez gemonu
+	* why it matters
+		[] dlaczego poznawanie lncrnas w nieanotowanych org. ma sens: conservation of lncrans beetween fish species.
+		
+		
+CONTENT:
+
+
+CONCLUSIONS:
