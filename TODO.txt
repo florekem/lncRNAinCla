@@ -32,6 +32,14 @@ OGÓLNE:
 
 
 
+3`UTR vs PROT
+[] sprawdzić dokladnie układ (stosunki) jednych do drugich we wszystkich dniach
+
+
+
+
+
+
 
 PISANIE:
 [] rozwinac gdzies pochodzenie (PBS,IVF,MIM).
@@ -48,25 +56,27 @@ RYSUNKI:
 [x] jak bedzie wygladac rysunek z workflowem
 
 
-OUTLINE
+# OUTLINE
 --------------
-
-ABSTRACT:
+## ABSTRACT:
 ---------
-CONTEXT:
-	* broad context
-		[x] o lncRNAs
-		[x] lncrnas w non-model organisms with genome
-		[x] lncrnas w non-genome non-model
-	* current state of art
-		[] lncRNAs sa poznawane w modelowych organizmach z genomem np. łosoś
-	* what is missing
-		[] lncRNAs w podobnych organizmach salmonidae bez gemonu
-	* why it matters
-		[] dlaczego poznawanie lncrnas w nieanotowanych org. ma sens: conservation of lncrans beetween fish species.
+### CONTEXT:
+	
 		
-		
-CONTENT:
+### CONTENT:
 
 
-CONCLUSIONS:
+### CONCLUSIONS:
+
+
+
+## INTRODUCTION
+
+
+
+
+
+
+
+
+
