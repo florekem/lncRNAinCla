@@ -2,7 +2,7 @@
 
 MC-LR is a fatal liver toxin that change transcriptomic profiles of many organs. RNA sequencing (RNA-seq) has emerged as a powerful technology for a genome-wide view of the transcriptome, providing an in-depth overview of transcripts sequences and expression profiles. Investigating changes in transcriptomic profiles caused by toxic agents, such as MC-LR, deepen the understanding of the involved molecular mechanisms and are useful in developing molecular markers. Many studies have been focused on exploring the transcriptional responses of liver and liver-derived cell lines to MC-LR [@Brzuzan2016,@Qu2018,@Ma2018,@Wei2008], as liver is the primary organ for uptake, accumulation and biotransformation [@Faltermann2016,@Xie2016].
 
-However, utilization of RNA-seq technology in toxicological studies focuses mainly on transcripts which show protein-coding properties.
+However, utilization of RNA-seq technology in toxicological studies focuses mainly on transcripts which show protein-coding properties. The only paper that investigates lncRNAs in human cell line after MC-LR treatment is [@Wen2018]. There is also one which study this in testis [@Meng2019].
 
 Discovery of importance of non-coding transcripts shifts scientific community into investigating those important, but used to be neglected part of the transcriptome. Part of non-coding are lncRNA 
 
