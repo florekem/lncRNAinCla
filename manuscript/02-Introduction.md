@@ -1,10 +1,14 @@
 ## Introduction (first draft)
 
-MC-LR is a fatal liver toxin that change transcriptomic profiles of many organs. RNA sequencing (RNA-seq) has emerged as a powerful technology for a genome-wide view of the transcriptome, providing an in-depth overview of transcripts sequences and expression profiles. Investigating changes in transcriptomic profiles caused by toxic agents, such as MC-LR, deepen the understanding of the involved molecular mechanisms and are useful in developing molecular markers. Many studies have been focused on exploring the transcriptional responses of liver and liver-derived cell lines to MC-LR [@Brzuzan2016,@Qu2018,@Ma2018,@Wei2008], as liver is the primary organ for uptake, accumulation and biotransformation [@Faltermann2016,@Xie2016].
+MC-LR is a fatal liver toxin that change transcriptomic profiles of many organs, including liver and brain, however, the precise mechanisms underlying hepatotoxicity and neurotoxicity attributed to MC-LR remain to be elucidated. RNA sequencing (RNA-seq) has emerged as a powerful technology for a genome-wide view of the transcriptome, providing an in-depth overview of transcripts sequences and expression profiles. Investigating changes in transcriptomic profiles caused by toxic agents, such as MC-LR, deepen the understanding of the involved molecular mechanisms and are useful in developing molecular markers. Many studies have been focused on exploring the transcriptional responses of liver and liver-derived cell lines to MC-LR [@Brzuzan2016,@Qu2018,@Ma2018,@Wei2008], as liver is the primary organ for uptake, accumulation and biotransformation [@Faltermann2016,@Xie2016]. 
 
-However, utilization of RNA-seq technology in toxicological studies focuses mainly on transcripts which show protein-coding properties. The only paper that investigates lncRNAs in human cell line after MC-LR treatment is [@Wen2018]. There is also one which study this in testis [@Meng2019].
+Utilization of RNA-seq technology in toxicological studies focuses mainly on transcripts which show protein-coding properties. As MC-LR is capable of drastically impair transcriptomic profiles of protein-coding transcripts, which constitute for only x % of transcriptome, it is reasonably to hypothesize that non-coding transcripts involvement in intoxication may be even bigger. In fact, researchers studying non-coding transcripts in various diseases . This results may be transferable into toxicological studies. [Przykłady prac o non-coding w toxicological studies]. Narrowing toxicological studies to MC-LR: the only paper that investigates lncRNAs in human cell line after MC-LR treatment was presented by [@Wen2018]. Another study which study this in testis [@Meng2019].
 
-Discovery of importance of non-coding transcripts shifts scientific community into investigating those important, but used to be neglected part of the transcriptome. Part of non-coding are lncRNA 
+
+focus is shifting into investigating various types of non-coding RNA, such as rRNA, tRNA, miRNA, piRNA and more recently into long non-coding RNAs.
+
+
+
 
 Particular transcript/set of transcripts are biomarkers that can be used to quickly identify cause of damage. For example... 
 
