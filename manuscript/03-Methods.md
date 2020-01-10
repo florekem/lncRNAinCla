@@ -1,13 +1,12 @@
 # Methods
 
 ### Experimental Design
-As samples used in this study are part of the wider project which results are yet to be published, here we do not show all details concerning fish maintenance and exposure. However all needed details were described previously in our papers. Fish handling, MC-LR administration and collection of tissues were performed as described and explained in details in our previous works [@Lakomiak2019, more more]. For studying effects of MC-LR on non-coding RNA we selected liver samples of whitefish that were exposed to MC-LR in the dose of 100 μg kg−1 of body mass for 1, 6 and 9 days.
+As samples used in this study are part of the wider project which results are yet to be published, here we do not show all details concerning fish maintenance and exposure. However all needed details were described previously in our papers. Fish handling, MC-LR administration and collection of tissues were performed as described and explained in details in our previous works [@Lakomiak2019, more more]. For studying effects of MC-LR on non-coding RNA we selected liver samples of whitefish that were exposed to MC-LR in the dose of 100 μg kg<sup>−1</sup> of body mass for 1, 6 and 9 days. Fish from all time groups received two injections of MC-LR: first at the beginning of the experiment, the second injection was done at 7th day of the experiment affecting only group after 9th day after the first injection [@Wozny2016]. 
 
-
-### Data Acquisition (Data Source)
 
 ### Initial de novo assembly
 De novo genome of whitefish was assembled from all 52 liver samples that were part of a mentioned project, including those used in this study. Quality control of raw sequencing reads was performed with FastQC, version 0.11.5. The reads were processed using Trimmomatic, version 0.36, to remove the adapter sequences and low-quality bases (Bolger et al., 2014). After quality trimming, the selected reads were assembled into the reference genome using Trinity, version 2.5.1, with default parameters (Haas et al., 2013).
+
 
 ### non-coding RNA identification pipeline
 The following pipeline was based on (Harris et al., 2017). First, trinity de novo assembled genomes were filtered for redundant transcripts using the cd-hit-est algorithm of CD-HIT (Fu et al., 2012) with a sequence identity threshold of 0.9. 
@@ -20,10 +19,22 @@ Finally, the top BLAST hit based on the bit score, E-value and percent alignment
 
 At this point all transcripts that were considered to be either known or novel non-coding RNAs, as well all transcripts identified as Atlantic salmon proteins, were counted in each liver sample using samtools idxstats.
 
+
 ### Identifying non-coding 3`-UTR transcripts
 To distinguish long non-coding transcripts from autonomous 3'-UTR transcripts separated from their associated mRNAs, putative novel non-coding transcripts were subjected to blastn search against Atlantic salmons Reference RNA Sequences database (NCBI, refseq_rna). Read counts of identified 3'-UTR transcripts were then set together with read counts of transcripts identified as corresponding proteins. Only those UTR transcripts which had its corresponding protein transcripts were subjected to further analysis.
 
 ### Free Energy Levels of Non-Coding Transcripts 
-The minimum free energy of each transcript was calculated using the rnafold algorithm implemented by the ViennaRNA-2.2.5 software package using the following options to define the partition calculation algorithm, to ensure that ‘dangling ends’ are treated with the same energy requirements as paired bases, and to disallow lonely pairs: -p –d2 --noLP. The provided script, free_energy_calculations_v2.sh, took a list of sequences, retrieved the sequence using Samtools v 0.1.19, and calculated the free energy using this method. Results were written to a tab delimited file, in which the name of the sequence, the minimum free energy (MFE), centroid free energy, and ensemble diversity were reported. The minimum free energies of the transcripts then were compared to the minimum free energy of similarly-sized randomly selected set of putative protein coding genes.
+The minimum free energy of each transcript was calculated using the rnafold algorithm implemented by the ViennaRNA-2.2.5 software package [46] using the following options: -p –d2 --noLP. The minimum free energies of the transcripts were then compared to the minimum free energy of a randomly selected set of protein coding transcripts. Transcripts length and GC content were calculated. Statistical analyses were conducted in python using following packages.
 
-### Comparison of lncRNAs and protein coding RNAs
+
+
+
+
+
+
+
+
+
+
+
+
