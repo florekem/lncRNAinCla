@@ -1,7 +1,9 @@
 # Methods
 
 ### Experimental Design
-As samples used in this study are part of the wider project which results are yet to be published, here we do not show all details concerning fish maintenance and exposure. However all needed details were described previously in our papers. Fish handling, MC-LR administration and collection of tissues were performed as described and explained in details in our previous works [@Lakomiak2019, more more]. For studying effects of MC-LR on non-coding RNA we selected liver samples of whitefish that were exposed to MC-LR in the dose of 100 μg kg<sup>−1</sup> of body mass for 1, 6 and 9 days. Fish from all time groups received two injections of MC-LR: first at the beginning of the experiment, the second injection was done at 7th day of the experiment affecting only group after 9th day after the first injection [@Wozny2016]. 
+As samples used in this study are part of the wider project which results are yet to be published, here we do not show all details concerning fish maintenance and exposure. However all needed details were described previously in our papers. Fish handling, MC-LR administration and collection of tissues were performed as described and explained in details in our previous works [@Lakomiak2019, more more]. For studying effects of MC-LR on non-coding RNA we selected liver samples of whitefish that were exposed to MC-LR in the dose of 100 μg kg<sup>−1</sup> of body mass for 1, 6 and 9 days. Fish from all time groups received two injections of MC-LR: first at the beginning of the experiment, the second injection was done at 7th day of the experiment affecting only group after 9th day after the first injection [@Wozny2016].
+
+The data from this study have been submitted to the NCBI SRA database (accession #xxx). The accession numbers for data from the individual samples, read numbers in the six samples, and concentrations of total RNA in the extracts are given in Supplementary Table xxx.
 
 
 ### Initial de novo assembly
