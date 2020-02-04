@@ -28,6 +28,7 @@ To distinguish long non-coding transcripts from autonomous 3'-UTR transcripts se
 ### Free Energy Levels of Non-Coding Transcripts 
 The minimum free energy of each transcript was calculated using the rnafold algorithm implemented by the ViennaRNA-2.2.5 software package [46] using the following options: -p –d2 --noLP. The minimum free energies of the transcripts were then compared to the minimum free energy of a randomly selected set of protein coding transcripts. Transcripts length and GC content were calculated. Statistical analyses were conducted in python using following packages.
 
+### Differential expression analysis
 
 
 

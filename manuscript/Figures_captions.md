@@ -2,3 +2,6 @@ Figure 2. **Density distributions of coding and putative novel lncRNAs transcrip
 
 
 Fig. X. Overall eﬀects of microcystin exposure on transcriptional gene transcription. (A) PCA plot demonstrates the overall changes in gene transcription of ZFL cells exposed to 10 μg/mL of MC-LR for different times. Ctrl stands for the controls not treated with MC-LR. (B) Numbers of the significantly up- and down- regulated genes in ZFL cells after 1, 3, 6, 12 and 24 h of exposure to 10 μg/mL of MC-LR measured by RNA-sequencing (Threshold for DEG identiﬁcation: fold change ≥ 1.5 and adjusted p value ≤ 0.001).
+
+
+Fig. X. Number of differentially expressed novel long non-coding RNAs after MC-LR treatment presented as venn diagrams. (A) up-regulated, (B) down-regulated. Transcripts overlapping between days after administering MC-LR distinguishes two groups, where transcripts from 1d does not overlap so well with other days, as transcripts from 6d and 9d do.
