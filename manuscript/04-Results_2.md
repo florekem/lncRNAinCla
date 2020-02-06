@@ -5,18 +5,27 @@ Here, based on the procedure for identifying non-coding RNAs in non-model specie
 
 
 ### Changes in expression of evolutionary conserved non-coding RNAs include long non-coding RNAs
-The list of transcripts, that were depleted of protein coding transcripts as well as those which showed any coding potential (as verified by SVM-based Coding Potential Calculator) were compared with Rfam database. This produced the list of xxx contigs (known NCT, which were counted among experimental groups and differential expression analysis were conducted (Figure 2a). Among differentially expressed rRNAs, tRNAs (and so on) there were xxx long non-coding RNAs identified (Figure 2b).
+The list of transcripts, that were depleted of protein coding transcripts as well as those which showed any coding potential (as verified by SVM-based Coding Potential Calculator) were compared with non-coding transcripts deposited in Rfam database. This produced the list of xxx contigs (known NCT), which were counted among experimental groups and differential expression analysis were conducted (Figure 2a). Among 4238 differentially expressed evolutionary conserved non-coding RNAs, there were 94 known long non-coding RNAs identified (Figure 2b). 
 
 
 ### Comparison between coding and putative novel long non-coding transcripts reveals differences in MFE, length and content of GC base pairs
 To determine if the identified putative whitefish lncRNAs candidates differ from PCT in terms of a higher free-energy level than the protein coding mRNAs, we used the RNAfold algorithm from the ViennaRNA package. It has been previously observed that the secondary structure of lncRNAs tend to have higher free energy (less stable conformation) than protein-coding mRNAs [12, 44, 45]. Obtained free energy values of secondary structures were corrected for the length of the sequence (Figure 3 A). The mean length-corrected minimum free energy for annotated protein coding genes was −0.289 kcal/mol/nt with a standard deviation of 0.059464 kcal/mol/nt. The mean length-corrected minimum free energy content of the putative lncRNAs was −0.237 kcal/mol/nt with a standard deviation of 0.038758 kcal/mol/nt. The mean length-corrected minimum free energy content of the putative lncRNAs was 1.22 kcal/mol/nt higher than that of the protein-coding transcripts (t() = 46,652, p (lower) 0.001, [0.04963723, 0.05399174]). Our data is consistent with previous reports showing that also whitefish lncRNAs fold into secondary structures of lower free energy than protein-coding transcripts. Moreover the mean content of GC base pairs was higher in protein-coding transcripts (t() = 56,164, p (lower) 0.001, [0.06915164, 0.06448719]) (Figure 3 B). Additionally length of the transcripts was found to be different in both groups (Figure 3 C). In summary, our comparison analysis showed structural differences between NCT and PCT, validating our adopted methodology for discovery of lncRNAs in whitefish.
 
 
-### MC-LR dysregulates expression profiles of lncRNAs identified in this study
-To examine changes in expression of novel lncRNAs between control and samples exposed to MC-LR (1d, 6d, 9d) we used a 2-fold expression difference as a cutoff and a adjusted P (lower than) 0.001
+### 
+MC-LR is known to alter expression profiles of protein coding transcripts. 
 
-### MC-LR does not disturb the ratio between protein coding transcripts and their UTR counterparts 
+### MC-LR alters expression profiles of putative novel lncRNAs identified in this study
+To investigate if lncRNAs 
 
+To examine changes in the expression of putative novel lncRNAs identified in this study between control and samples exposed to MC-LR (1d, 6d, 9d) we used a 2-fold expression difference as a cutoff and a adjusted P (lower than) 0.001. Numbers of potent 
+
+### DE of protein coding transcripts and their UTR counterparts 
+
+### ML-LR and changes in UTR transcripts and their PCT counterparts
+
+
+### Potential role of differentially expressed 3'UTR 
 
 
 ### qPCR confirmed dysregulated lncRNAs in MC-LR versus control samples

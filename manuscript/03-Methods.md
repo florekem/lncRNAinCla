@@ -12,21 +12,20 @@ De novo genome of whitefish was assembled from all 52 liver samples that were pa
 
 ### non-coding RNA identification pipeline
 The following pipeline was based on (Harris et al., 2017). First, trinity de novo assembled genomes were filtered for redundant transcripts using the cd-hit-est algorithm of CD-HIT (Fu et al., 2012) with a sequence identity threshold of 0.9. 
-
 Filtering by expression was executed with RSEM (Li and Dewey, 2011) implemented by the Trinity-provided perl script ‘align_and_estimate_abundance’. Transcripts with expression levels below FPKM=1.50 were filtered out from the data set. Next, the transcripts were searched for open reading frames (ORFs) by Transdecoder, v2.0.1. 
-
 To identify putatively encoded proteins, ORFs and transcripts were searched against the UniProt-Swiss-Prot and Atlantic salmon proteins reference databases (GCF_000233375.1) using blastp and blastx from the BLAST+ suite with a threshold E-value of 1×10-3. Protein family searches were performed with the Pfam 32.0 database using the ORF protein sequences in HMMER 3.2.1. 
-
 Finally, the top BLAST hit based on the bit score, E-value and percent alignment, and all HMMER hits were loaded into Trinotate 3.2.1 to generate an annotation report. Based on the report, transcripts that were not related to any protein were then filtered against the RFAM database, v12.0 [73], by the cmscan algorithm implemented by Infernal, v1.1 [74]. Any hit that Infernal considered significant using default parameters was filtered out (known non-coding). All putative non-coding transcripts were then validated by calculating coding potential using CPC [46]. 
-
 At this point all transcripts that were considered to be either known or novel non-coding RNAs, as well all transcripts identified as Atlantic salmon proteins, were counted in each liver sample using samtools idxstats.
+
+
+### Free Energy Levels of Non-Coding Transcripts 
+The minimum free energy of each transcript was calculated using the rnafold algorithm implemented by the ViennaRNA-2.2.5 software package [46] using the following options: -p –d2 --noLP. The minimum free energies of the transcripts were then compared to the minimum free energy of a randomly selected set of protein coding transcripts. Transcripts length and GC content were calculated. Statistical analyses were conducted in python using following packages.
 
 
 ### Identifying non-coding 3`-UTR transcripts
 To distinguish long non-coding transcripts from autonomous 3'-UTR transcripts separated from their associated mRNAs, putative novel non-coding transcripts were subjected to blastn search against Atlantic salmons Reference RNA Sequences database (NCBI, refseq_rna). Read counts of identified 3'-UTR transcripts were then set together with read counts of transcripts identified as corresponding proteins. Only those UTR transcripts which had its corresponding protein transcripts were subjected to further analysis.
 
-### Free Energy Levels of Non-Coding Transcripts 
-The minimum free energy of each transcript was calculated using the rnafold algorithm implemented by the ViennaRNA-2.2.5 software package [46] using the following options: -p –d2 --noLP. The minimum free energies of the transcripts were then compared to the minimum free energy of a randomly selected set of protein coding transcripts. Transcripts length and GC content were calculated. Statistical analyses were conducted in python using following packages.
+### Gene onthology of 3'-UTR and PCT pairs
 
 ### Differential expression analysis
 
