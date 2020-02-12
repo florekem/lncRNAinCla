@@ -6,6 +6,8 @@ Hip: whitefish lncRNAs (and maybe utrs) could be used as biomarkers of MC-LR-ind
 
 And provide a succinct **explanation** of the **implications of the findings**, particularly **in relation to previous related studies** and **potential future directions for research**.
 
+1. MC-LR and lncRNAs
+1. Problems with identifying lncRNAs in general
 1. Usefulness of the de novo genome for lncRNAs discovery (par. 1+2 results)
 2. Evolutionary conservation of lncRNAs (?) [can I find examples, that are known to be evolutionary conserved?] (par. 3 results)
 3. UTR (as biomarkers) 
