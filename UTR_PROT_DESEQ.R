@@ -46,13 +46,40 @@ library(DESeq2)
 
 
 ### PBS_UTR vs PBS_PROT
-data <- read.csv('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/noncoding_novel/day_1_PBS_UTR_PROT_matryca.csv', sep=',', head=TRUE)
-coldata <- as.matrix(read.table('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/noncoding_novel/coldata_1d_PBS.csv'))
+#data <- read.csv('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/noncoding_novel/day_1_PBS_UTR_PROT_matryca.csv', sep=',', head=TRUE)
+#coldata <- as.matrix(read.table('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/noncoding_novel/coldata_1d_PBS.csv'))
 
-dds <- DESeqDataSetFromMatrix(countData=data,colData=coldata,design = ~ position);
+#dds <- DESeqDataSetFromMatrix(countData=data,colData=coldata,design = ~ position);
+#dds <- DESeq(dds);
+#wyniki<-results(dds);
+#write.csv(wyniki, file="/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/noncoding_novel/deseq2_result_from_R_1d_PBS_UTR_PBS_PROT.csv", row.names=FALSE);
+
+
+#PROTEIN BRZUZAN
+#1d
+#MIS vs MIM
+#data <- read.csv('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/1d_MIS_vs_MIM.csv', sep=',', head=TRUE)
+#coldata <- as.matrix(read.table('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/coldata_1d_MIM_MIM.csv'))
+#dds <- DESeqDataSetFromMatrix(countData=data,colData=coldata,design = ~ condition);
+#dds <- DESeq(dds);
+#wyniki<-results(dds);
+#write.csv(wyniki, file="/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/1d_MIS_vs_MIM_DESEQ.csv", row.names=FALSE);
+
+#1d
+#MIS vs INH
+#data <- read.csv('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/1d_MIS_vs_INH.csv', sep=',', head=TRUE)
+#coldata <- as.matrix(read.table('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/coldata_1d_MIS_INH.csv'))
+#dds <- DESeqDataSetFromMatrix(countData=data,colData=coldata,design = ~ condition);
+#dds <- DESeq(dds);
+#wyniki<-results(dds);
+#write.csv(wyniki, file="/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/1d_MIS_vs_INH_DESEQ.csv", row.names=FALSE);
+
+#1d
+#MIS vs PBS
+data <- read.csv('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/1d_MIS_vs_PBS.csv', sep=',', head=TRUE)
+coldata <- as.matrix(read.table('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/coldata_1d_MIS_PBS.csv'))
+dds <- DESeqDataSetFromMatrix(countData=data,colData=coldata,design = ~ condition);
 dds <- DESeq(dds);
 wyniki<-results(dds);
-write.csv(wyniki, file="/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/noncoding_novel/deseq2_result_from_R_1d_PBS_UTR_PBS_PROT.csv", row.names=FALSE);
-
-
+write.csv(wyniki, file="/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/1d_MIS_vs_PBS_DESEQ.csv", row.names=FALSE);
     
