@@ -76,10 +76,32 @@ library(DESeq2)
 
 #1d
 #MIS vs PBS
-data <- read.csv('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/1d_MIS_vs_PBS.csv', sep=',', head=TRUE)
-coldata <- as.matrix(read.table('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/coldata_1d_MIS_PBS.csv'))
+#data <- read.csv('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/1d_MIS_vs_PBS.csv', sep=',', head=TRUE)
+#coldata <- as.matrix(read.table('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/coldata_1d_MIS_PBS.csv'))
+#dds <- DESeqDataSetFromMatrix(countData=data,colData=coldata,design = ~ condition);
+#dds <- DESeq(dds);
+#wyniki<-results(dds);
+#write.csv(wyniki, file="/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/1d_MIS_vs_PBS_DESEQ.csv", row.names=FALSE);
+
+
+#6d,8d
+#MIS vs MIM
+#data <- read.csv('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/8d_MIS_vs_MIM.csv', sep=',', head=TRUE)
+#coldata <- as.matrix(read.table('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/coldata_8d_MIS_MIM.csv'))
+#dds <- DESeqDataSetFromMatrix(countData=data,colData=coldata,design = ~ condition);
+#dds <- DESeq(dds);
+#wyniki<-results(dds);
+#write.csv(wyniki, file="/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/8d_MIS_vs_MIM_DESEQ.csv", row.names=FALSE);
+
+#6d,8d
+#MIS vs INH
+data <- read.csv('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/8d_MIS_vs_INH.csv', sep=',', head=TRUE)
+coldata <- as.matrix(read.table('/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/coldata_8d_MIS_INH.csv'))
 dds <- DESeqDataSetFromMatrix(countData=data,colData=coldata,design = ~ condition);
 dds <- DESeq(dds);
 wyniki<-results(dds);
-write.csv(wyniki, file="/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/1d_MIS_vs_PBS_DESEQ.csv", row.names=FALSE);
+write.csv(wyniki, file="/mnt/sdb1/Project_Sieja_MCLR_52/2_pipeline/7_counting_transcripts/proteins_uniprot_salmo_brzuzan/8d_MIS_vs_INH_DESEQ.csv", row.names=FALSE);
+
+
+
     
