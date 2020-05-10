@@ -20,15 +20,23 @@ The choice of pipeline used for identifying lncRNAs transcripts is crucial. Unfo
 
 LncRNAs generally are poorly conserved among species [@Wang2004]. Evidence on evolutionary conservation has been mainly limited to discovery of sequence or positional orthologues, with no evidence for conserved functions [@Hezroni2016]. Based on similarity of our transcripts to the non coding sequences deposited in the Rfam databse we identified liver lncRNAs which expression was changed after MC-LR administration (known DElncRNAs). We found that MC-LR altered expression of contigs of potent lncRNA gene regulators as HOTAIR, HOTTIP, HULC or MALAT1. In humans they are all involved in diverse biological functions, such as cell proliferation, apoptosis, migration, invasion, metastasis and angiogenesis, thereby contributing to the initiation and progression of hepatocellular carcinoma (HCC). In our previous study we showed that MC-LR impaired expression of several whitefish liver microRNAs that in humans are involved in hepatitis, cirrhosis and HCC [@Brzuzan2016]. We believe that current results further extends our knowledge on the potential activity of this cyanotoxin as a tumor promoter. 
 
-The presence of autonomous 3′-UTR transcripts, separated from their associated mRNAs was documented in studies on mouse and human cells [@Mercer2011, @Kocabas2015, @Malka2017], hence 3'-UTR regions that were considered to be a part of the canonical transcripts are in fact autonomous units [@Malka2017]. Here we detected putative autonomous 3'-UTR regions in whitefish liver. [caveats to our methodology]. [something about how they relate to PCT in normal conditions]. We found that MC-LR could change mutual ratios of autonomous 3'-UTR and PCT in whitefish liver.
+The presence of autonomous 3′-UTR transcripts, separated from their associated mRNAs was documented in studies on mouse and human cells [@Mercer2011, @Kocabas2015, @Malka2017], hence 3'-UTR regions that were considered to be a part of the canonical transcripts are in fact autonomous units [@Malka2017]. Here we detected putative autonomous 3'-UTR regions in whitefish liver and analyzed how their relate to corresponding PCT of the same mRNA. We found that in the normal condition (control group) almost the same number of mRNAs have significantly higher number of 3'-UTR transcripts (48% of DEmRNAs) as those which have higher number of PCT (52% of DEmRNAs). This indicates that in normal whitefish liver those transcripts remain in stable relationship. The mechanism of shortening of mRNAs to increase the effectiveness of miRNA binding sites has been proposed as a global regulatory tool [@Malka2017]. Our previous study showed aberrant expression of miRNAs and their role in the regulation of transcription after exposure to MC-LR [@Brzuzan2016]. Here we show that 
 
+Moreover we found that after MC-LR exposure 
+
+
+
+, in the majority of DEmRNAs, if an putative autonomous 3'-UTR was differentially expressed, the associated PCT was also differentially expressed in the same direction.  However D1 differed 
+
+
+
+[caveats to our methodology].
 [is this change important to response to MC-LR intoxication?]
 
-This pipeline (and methodology) of sequencing is not optimal for studying this transcripts, however...
+We are aware that This pipeline (and methodology) of sequencing is not optimal for studying this transcripts, however we think
 
 We analyzed only transcripts that matched pairs with PCT, thereby allowing to investigate 
 
-We found that, in the majority of cases, if an putative autonomous 3'-UTR was differentially expressed, the associated PCT was also differentially expressed in the same direction.
 
 
 [skoro GO nie pokazuje roznic to nie kwestia procesow, ale czegos innego]
