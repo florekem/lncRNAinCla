@@ -34,8 +34,6 @@ Our possible detection of autonomous 3'-UTRs in whitefish liver may be biased by
 
 
 
-Moreover we found that after MC-LR exposure 
-
 
 
 
@@ -43,11 +41,6 @@ Moreover we found that after MC-LR exposure
 
 
 
-
-[opposite ditection]
-
-In summary we show that response to MC-LR is producing different response of 3'UTR...
-[/opposite direction]
 
 
 [biomarkery]
