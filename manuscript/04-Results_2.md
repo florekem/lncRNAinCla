@@ -33,5 +33,4 @@ To determine if the identified novel whitefish lncRNAs candidates differ from PC
 ### MC-LR alters expression profiles of putative novel lncRNAs identified in this study
 Using DESeq2 package of Bioconductor we investigated whether MC-LR induced changes in expression profiles of putative novel lncRNAs discovered in this study. Using a P adjusted (lower than) 0.001 and a 2-fold expression as a cutoff we identified 1739 and 2690 transcripts that were either up- or down-regulated between days of exposure, respectively. Figure 7 shows Venn diagrams with number of transcripts specific to the each time period, as well as those which overlap between days of exposure to MC-LR (Figure 7, A,B). 31% of all up- and 34.8% of all down-regulated lncRNA transcripts were common between days 6 and 9 showing similar expression changes between these time periods. On the other hand, the similarities of common transcripts between day 1 and days 6 and 9 range from 0.23% to 5.31%. This pattern could be also observed in the protein coding transcripts identified in this study (Figure X; C,D).
 
-
-### qPCR confirmed dysregulated lncRNAs in MC-LR versus control samples
+### Validation of dysregulated lncRNAs by real-time RT-PCR
