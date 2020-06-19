@@ -1,18 +1,13 @@
 ### Introduction
 
-Microcystin-LR ... MC-LR in DILI/MILI
+Microcystins (MCs) are a challenging group of cyclic heptapeptide hepatotoxins for which a substantial gap in knowledge persists regarding the underlying molecular mechanisms of organ toxicity and injury. Microcystin-LR (MC-LR) is one of the most wildly distributed and potent variant of MCs, which is absorbed, transported [] and accumulated predominantly in liver [] causing drug-induced liver injury (DILI). Studies on a transcriptomic level revealed various protein coding transcripts (PCTs) involved in the response and progression of MC-LR-induced liver injury in different species []. Further, MC-LR was confirmed to alter expression levels of various non-coding RNA (ncRNA) transcripts, including small regulatory ncRNAs (shorter than 200 nt) as microRNAs (miRNAs), piwi-associated RNAs (piRNAs) and small interfering RNAs (siRNAs) []. The MC-LR exposure caused perturbations in expression of miRNAs within various types of tissues and cells in mammals []. Similarly, our previous research showed that in whitefish, a non-model salmonid specie, MC-LR regulates several hepatic miRNA signaling pathways and alters the expression profiles of miRNAs short-term [@Brzuzan2012] and long-term [@Brzuzan2016]. 
 
+When compared with miRNAs, our understanding of long non-coding RNAs (longer than 200 nt; lncRNAs) functions and mechanism is still limited. Moreover, lncRNAs are poorly conserved among species [@Wang2004], which additionally hinders research on their function and evolution. However, it has been shown that lncRNAs are involved in a variety of biological processes such as cell proliferation, apoptosis and differentiation [@Zhao2015] through regulating gene expression by a variety of mechanisms including binding (sponging) miRNAs. In this mechanism lncRNA can act as a sponge to competitively bind to miRNA, resulting in changes in the protein level of coding genes at posttranscriptional level [@]. For example, recently characterized metastasis associated in lung adenocarcinoma transcript 1 (MALAT1), a one of well-conserved lncRNA that is implicated in diseases in humans including various cancers was shown to bind MiR-34a in melanoma cells thereby inhibiting miR-34a levels [@Li2019]. The role of MALAT1 in DILI has not yet been elucidated. Moreover, our knowledge concerning the role of lncRNAs in DILI induced by MC-LR is still limited even in mammals [@Wen2018]. 
 
-Microcystin-LR and non-coding RNAs in DILI. Primarily miRNAs, recently lncRNAs (yet no so much in DILI).
-
-
-
-Discovery and identification of lncRNAs (microarrays, RNA-Seq). Different outcomes of experimental design (library preparation, depth). No gold standard, which in forming.
+With specific expression patterns in diseases and conserved sequences of some lncRNAs across various species, it was reasonably to assume that they would also possess significance in MC-LR-induced liver injury in fish. Occurrence of biologically active lncRNAs in fish was confirmed in zebrafish [@Pauli2012] and more recently in rainbow trout [@Al-Tobasei2016, @Paneru2016]. Finding lnc in non-model species is more challenging... furhermore it can be better than incomplete or framented assemblies.
 
 
 
 
-Most reliable results comes from pipelines based on annotated genomes. However in non-model species de novo approaches emerged (related limitations).
 
 
-In this paper we...
