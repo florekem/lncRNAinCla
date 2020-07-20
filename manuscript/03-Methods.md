@@ -50,4 +50,4 @@ Statistical calculations for qPCR data were performed using GenEx 7.0. Analysis 
 
 
 #### Data availability
-The data from this study have been submitted to the NCBI SRA database (accession #xxx). The accession numbers for data from the individual samples, read numbers and concentrations of total RNA in the extracts are given in Supplementary File 2.
+The data from this study have been submitted to the NCBI SRA database (accession #xxx). The accession numbers for data from the individual samples, read numbers and concentrations of total RNA in the extracts are given in Additional File 2.

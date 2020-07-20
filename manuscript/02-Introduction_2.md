@@ -1,4 +1,6 @@
-### Introduction
+
+\newpage
+### Background
 
 Microcystins (MCs) are a challenging group of cyclic heptapeptide hepatotoxins for which a substantial gap in knowledge persists regarding the underlying molecular mechanisms of organ toxicity and injury. Microcystin-LR (MC-LR) is one of the most wildly distributed and potent variant of MCs, which is absorbed, transported and accumulated predominantly in liver [@Fischer2000] causing drug-induced liver injury (DILI). Studies on a transcriptomic level revealed various protein coding transcripts (PCTs) involved in the response and progression of MC-LR-induced liver injury in different species [@Weng2007, @Wei2008]. Further studies showed that in addition to PCTs, various non-coding RNA transcripts (ncRNAs, NCTs) have been implicated in response to various stressors, including DILI [@Shah2013]. MC-LR was confirmed to alter expression levels of small regulatory ncRNAs (shorter than 200 nt) as microRNAs (miRNAs), piwi-associated RNAs (piRNAs) and small interfering RNAs (siRNAs) [@Meng2019a]. The MC-LR exposure caused perturbations in expression of miRNAs within various types of tissues and cells [@Feng2017, @Xu2012b]. 
 
