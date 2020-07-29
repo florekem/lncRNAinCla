@@ -17,17 +17,15 @@
 
 **Fig. 8** Expression of putative MALAT1 (A), HOTAIR (B) and HOTTIP (C) in whitefish liver after 1d, 6d and 9d of MC-LR exposure quantified using Real-Time PCR.
 
-**Additional File 1** Histograms and normal QQ-plots of minimum free energy (MFE), content of GC base pairs and sequence length in protein-coding and non-coding transcripts.
+**Additional File 1** Histograms and normal Q-Q plots of minimum free energy (MFE), content of GC base pairs and sequence length in protein-coding and non-coding transcripts.
 
-**Additional File 2** Details regarding data availability.
+**Additional File 2** The detail statistics for the quality of sequencing data of all (52) samples used for de novo assembly of liver transcriptome. Samples in bold were used further in this study for quantitative analysis of lncRNA.
 
-**Additional File 3** The detail statistics for the quality of sequencing data of all samples used for *de novo* assembly of liver transcriptome. Samples in **bold** were used in further analysis.
+**Additional File 3** Contig metrics of filtered de novo assembled liver transcriptome. All metrics were calculated using Transrate version 1.0.3.
 
-**Additional File 4** Contig metrics of filtered de novo assembled liver transcriptome. All metrics were calculated using Transrate version 1.0.3.
+**Additional File 4** Alignment of our putative MALAT1 transcript to the seed sequence of human MALAT1 deposited in Rfam database. (A) Output of cmscan hit alignment. (B) ClustalO alignment.
 
-**Additional File 5** Alignment of our putative MALAT1 transcript to the seed sequence of human MALAT1 deposited in Rfam database. (A) Output of cmscan hit alignment. (B) ClustalO alignment.
+**Additional File 5** Comparison of Gene Ontology terms of co-upregulated (A) and co-downregulated (B) putative PCT/3'UTR transcript pairs between 6d (red bars) and 9d (gray bars). 
 
-**Additional File 6** Comparison of Gene Ontology terms of co-upregulated (A) and co-downregulated (B) putative PCT/3'UTR transcript pairs between 6d (red bars) and 9d (gray bars). 
-
-**Additional File 7** Expression of selected putative novel lncRNAs in whitefish liver after 1d, 6d and 9d quantified using Real-Time PCR. Transcripts were selected based on RNA-Seq results.
+**Additional File 6** Expression of selected putative novel lncRNAs in whitefish liver after 1d, 6d and 9d quantified using Real-Time PCR. Transcripts were selected based on RNA-Seq results.
 
