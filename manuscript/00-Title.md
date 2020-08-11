@@ -1,6 +1,6 @@
 ﻿*Research article*
 
-***De novo*** **profiling of long non-coding RNAs involved in MC-LR-induced liver injury in whitefish: discovery and perspectives**
+***De novo*** **profiling of long non-coding RNAs involved in MC-LR–induced liver injury in whitefish: discovery and perspectives**
 
 
 Maciej Florczyk, Paweł Brzuzan, Maciej Woźny
