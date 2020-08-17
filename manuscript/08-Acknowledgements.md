@@ -6,16 +6,10 @@ All animal-related procedures were approved by the Local Ethical Commission in O
 Not applicable.
 
 ### Availability of data and materials
-The data from this study have been submitted to the NCBI SRA database (accession #xxx).
+The raw data from this study have been submitted to the NCBI SRA database. The accession numbers for data from the individual samples are given in Additional File 3. *De novo* assembled whitefish liver transcriptome and sequences of transcripts identified in this study have been deposited in The Dryad Digital Repository (https://datadryad.org).
 
 ### Competing interests
 The authors declare that they have no competing interests.
-
-### Authors' contributions
-
-
-### Acknowledgements
-
 
 ### Authors' contributions
 Wrote the manuscript: MF; designed study: PB, MW; edited the manuscript: PB, MW; carried out experiments: PB, MW, MF; data analysis: MF. All authors read and approved the final manuscript.
