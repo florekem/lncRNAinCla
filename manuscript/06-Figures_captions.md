@@ -1,13 +1,13 @@
 
 ### Figures
 
-**Fig. 1** Schematic representation of pipeline used to profile changes in expression of putative long non-coding RNAs (lncRNAs) in microcystin-LR-induced (MC-LR) liver damage in whitefish. (A) Overview of the experimental procedure. (B) Bioinformatic analysis workflow. Yellow shapes indicate pipeline input; green shapes indicate action step taken in analysis; blue shapes indicate output of an action; purple shapes indicate final output. DE, differentially expressed; PCTs, protein coding transcripts; 
+**Fig. 1** Schematic representation of pipeline used to profile changes in expression of putative long non-coding RNAs (lncRNAs) in microcystin-LR (MC-LR) induced liver damage in whitefish. (A) Overview of the experimental procedure. (B) Bioinformatic analysis workflow. Yellow shapes indicate pipeline input; green shapes indicate action step taken in analysis; blue shapes indicate output of an action; purple shapes indicate final output. DE, differentially expressed; PCTs, protein coding transcripts; 
 
 **Fig. 2** Differentially expressed putative known non-coding RNAs after MC-LR exposure. (A-D) Volcano plots and Venn diagram of differentially expressed (DE) transcripts with homology to any transcript deposited in Rfam database (including lncRNAs). (E-H) Volcano plots and Venn diagram of DE transcripts with homology to transcripts labeled as lncRNAs in Rfam database. Expression of putative MALAT1 transcript was downregulated at 6d and 9d of microcystin-LR (MC-LR) exposure.
 
 **Fig. 3** Pairs of differentially expressed (DE) putative autonomous 3'UTRs and protein coding transcripts (PCTs) from the same mRNA in whitefish liver after microcysitin-LR (MC-LR) exposure. (A) Percentages of DE contigs from the same mRNA that both were upregulated (red) or down-regulated (blue), as well as those with opposing expression profiles. (B) Percentages of contigs from the same mRNA for which the ratio of PCT to putative autonomous 3'UTR transcripts was higher in the control (PBS) than in the exposed (MC-LR) groups (brown), as well as those for which the ratio was higher in the exposed than in the control groups (green).
 
-**Fig. 4** Percentage share between days of exposure to MC-LR of putative novel, protein-coding and putative PCT/3'UTR pairs transcripts, that were either (A) upregulated or (B) downregulated. Similarities in percentage share between all three types of transcripts indicate co-expression in response to MC-LR-induced liver injury.
+**Fig. 4** Percentages of differentially expressed (DE) putative novel lncRNAs, protein-coding transcripts (PCTs) and putative PCT/3'UTR pairs, that were either upregulated (A) or downregulated (B) after microcystin-LR exposure. Similarities between all three groups indicate co-expression in response to MC-LR–induced liver injury.
 
 **Fig. 5** Gene ontology of co-expressed pairs of putative autonomous 3'UTRs and protein coding transcripts (PCTs) from the same mRNA that were upregulated after microcystin-LR (MC-LR) exposure. Figure shows enriched gene ontology terms for pairs that were upregulated on d1 compared to d6 and d9, p < 0.05.
 
