@@ -1,5 +1,5 @@
 
-### Figures
+### Figure legends
 
 **Fig. 1** Schematic representation of pipeline used to profile changes in expression of putative long non-coding RNAs (lncRNAs) in microcystin-LR (MC-LR) induced liver damage in whitefish. (A) Overview of the experimental procedure. (B) Bioinformatic analysis workflow. Yellow shapes indicate pipeline input; green shapes indicate action step taken in analysis; blue shapes indicate output of an action; purple shapes indicate final output. DE, differentially expressed; PCTs, protein coding transcripts; 
 
@@ -15,7 +15,7 @@
 
 **Fig. 7** Microcystin-LR (MC-LR) induced differentially expressed (DE) putative novel lncRNAs in whitefish liver. Volcano plots after 1d (A), 6d (B) and 9d (C) of exposure. Venn diagrams of upregulated (D) and downregulated (E) putative novel lncRNAs after MC-LR exposure. Note that days 6 and 9 are more similar to each other than to day 1 in terms of which lncRNAs were DE on those days. 
 
-**Fig. 8** Expression of putative MALAT1 (A), HOTAIR (B) and HOTTIP (C) in whitefish liver after 1d, 6d and 9d of MC-LR exposure quantified using RT-qPCR. ** p < 0.01. Ctr - control, unchallenged group.
+**Fig. 8** Expression of putative MALAT1 (A), HOTAIR (B) and HOTTIP (C) in whitefish liver after 1d, 6d and 9d of MC-LR exposure quantified using RT-qPCR. ** p < 0.01. Ctr - control, unchallenged group. Points represent individual fish in respective experimental group.
 
 **Additional File 1** Sequences of primers used in RT-qPCR.
 
@@ -29,5 +29,6 @@
 
 **Additional File 6** Comparison of gene ontology terms of co-upregulated (A) and co-downregulated (B) putative PCT/3'UTR transcript pairs at 6d (red bars) and 9d (gray bars) of MC-LR exposure. 
 
-**Additional File 7** Expression of selected putative novel lncRNAs in whitefish liver after 1d, 6d and 9d of microcystin-LR (MC-LR) exposure quantified using RT-qPCR. Transcripts were selected based on RNA-Seq results. * p < 0.05 and ** p < 0.01.
+**Additional File 7** Expression of selected putative novel lncRNAs in whitefish liver after 1d, 6d and 9d of microcystin-LR (MC-LR) exposure quantified using RT-qPCR. Transcripts were selected based on RNA-Seq results. * p < 0.05 and ** p < 0.01. Points represent individual fish in respective experimental group.
+
 
